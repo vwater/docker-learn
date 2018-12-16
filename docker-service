@@ -7,7 +7,6 @@ docker ps     //查看docker 容器
 docker search ** //搜索docker镜像
   
 docker pull  **  //拉去docker镜像  
-
   
 docker run -p 8080：8080 firstimage //基于firstimage运行一个docker容器
     
