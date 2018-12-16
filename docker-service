@@ -1,0 +1,29 @@
+    
+ 
+docker image  //查看docker镜像
+  
+docker ps     //查看docker 容器
+  
+docker search ** //搜索docker镜像
+  
+docker pull  **  //拉去docker镜像  
+
+  
+docker run -p 8080：8080 firstimage //基于firstimage运行一个docker容器
+    
+/*
+
+生成docker image  
+
+touch Dockerfile  
+
+vi Dockerfile  // 在Dockerfile文件中添加生成image命令  
+
+docker build -t firstimage .  //在Dockerfile同级路径下运行此命令
+ 
+
+*/
+  
+docker tag image ‘username/repository:tag’ //给image打标签
+  
+docker push   'username/repository:tag'  //上传镜像
